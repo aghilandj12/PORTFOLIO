@@ -188,12 +188,7 @@ export default function ContactSection() {
                 className="w-full bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed group hover:animate-pulse-glow animate-fade-in"
                 style={{ animationDelay: '0.5s' }}
                 data-testid="button-send-message"
-                onMouseEnter={(e) => {
-                  e.currentTarget.classList.add('animate-heartbeat');
-                  setTimeout(() => {
-                    e.currentTarget.classList.remove('animate-heartbeat');
-                  }, 1000);
-                }}
+
               >
                 {isSubmitting ? (
                   "Sending..."

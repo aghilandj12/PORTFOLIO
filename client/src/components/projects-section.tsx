@@ -59,12 +59,7 @@ export default function ProjectsSection({ onProjectClick }: ProjectsSectionProps
                         key={tech}
                         className="bg-gray-100 dark:bg-slate-700 text-gray-800 dark:text-gray-200 text-xs px-2 py-1 rounded group-hover:animate-bounce-subtle hover:scale-110 transition-all duration-300"
                         style={{ animationDelay: `${techIndex * 0.1}s` }}
-                        onMouseEnter={(e) => {
-                          e.currentTarget.classList.add('animate-wobble');
-                          setTimeout(() => {
-                            e.currentTarget.classList.remove('animate-wobble');
-                          }, 1000);
-                        }}
+
                       >
                         {tech}
                       </span>

@@ -36,12 +36,7 @@ export default function Footer() {
                   className="text-gray-400 hover:text-white transition-all duration-300 hover:animate-bounce-subtle hover:scale-125 group animate-fade-in"
                   style={{ animationDelay: `${index * 0.1 + 0.6}s` }}
                   data-testid={`link-footer-${link.label.toLowerCase()}`}
-                  onMouseEnter={(e) => {
-                    e.currentTarget.classList.add('animate-heartbeat');
-                    setTimeout(() => {
-                      e.currentTarget.classList.remove('animate-heartbeat');
-                    }, 1000);
-                  }}
+
                 >
                   <Icon className="w-6 h-6 group-hover:animate-heartbeat" />
                 </a>

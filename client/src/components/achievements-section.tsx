@@ -122,12 +122,7 @@ export default function AchievementsSection() {
                             key={badge}
                             className={`${colorClasses.bg} ${colorClasses.text} text-sm px-3 py-1 rounded-full font-medium hover:animate-bounce-subtle hover:scale-110 transition-all duration-300 group-hover:animate-heartbeat`}
                             style={{ animationDelay: `${badgeIndex * 0.1}s` }}
-                            onMouseEnter={(e) => {
-                              e.currentTarget.classList.add('animate-wobble');
-                              setTimeout(() => {
-                                e.currentTarget.classList.remove('animate-wobble');
-                              }, 1000);
-                            }}
+
                           >
                             {badge}
                           </span>
