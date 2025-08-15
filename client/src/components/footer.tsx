@@ -3,11 +3,9 @@ import { Mail, Linkedin, Github, Code } from "lucide-react";
 export default function Footer() {
   const socialLinks = [
     { icon: Mail, href: "mailto:aghilan51515151@gmail.com", label: "Email" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
-    { icon: Github, href: "#", label: "GitHub" },
-    { icon: Code, href: "#", label: "LeetCode" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/aghilan-d-j/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app", label: "LinkedIn" },
+    { icon: Github, href: "https://github.com/aghilandj12", label: "GitHub" },
   ];
-
   return (
     <footer className="bg-gray-900 dark:bg-slate-950 text-white py-12 relative overflow-hidden">
       {/* Animated background pattern */}

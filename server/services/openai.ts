@@ -35,7 +35,7 @@ PROJECTS:
 5. ROAD SAFETY TOOL (August 2024) - HTML/CSS app providing alerts for caution zones using Street MapAPI
 
 ACHIEVEMENTS:
-- LeetCode: 140+ problems solved, Rating: 1559
+- LeetCode: 160+ problems solved, Rating: 1559
 - Mini Project Expo 2025: 1st Position (Intra College)
 - Karpagam College Project Expo: 1st Position with cash prize
 - Freshathon 2024: 1st Position (Intra College Hackathon)
@@ -86,7 +86,7 @@ export async function chatWithAI(message: string): Promise<string> {
     } else if (lowerMessage.includes('project') || lowerMessage.includes('work') || lowerMessage.includes('portfolio')) {
       return "Aghilan's standout projects include RENTIFY (a MERN stack rental platform), CIVICFIX (a transparency system for governance), and RELIV (a Flutter disaster management app with Beacon technology). He also built AGRO-CLIMA INSIGHTS using Django for climate data analysis and a Road Safety Tool with real-time location alerts.";
     } else if (lowerMessage.includes('achievement') || lowerMessage.includes('award') || lowerMessage.includes('leetcode') || lowerMessage.includes('competition')) {
-      return "Aghilan has solved 140+ problems on LeetCode with a rating of 1559, won 1st place in multiple project exhibitions including Intra College Project Expo 2025 and Karpagam College Project Expo, and secured 1st position in Intra College Hackathon 2024. He also completed several professional certifications in Flutter, Data Science, and Machine Learning.";
+      return "Aghilan has solved 160+ problems on LeetCode with a rating of 1559, won 1st place in multiple project exhibitions including Intra College Project Expo 2025 and Karpagam College Project Expo, and secured 1st position in Intra College Hackathon 2024. He also completed several professional certifications in Flutter, Data Science, and Machine Learning.";
     } else if (lowerMessage.includes('education') || lowerMessage.includes('college') || lowerMessage.includes('study') || lowerMessage.includes('degree')) {
       return "Aghilan is currently pursuing B.Tech in Computer Science and Business Systems at Sri Eshwar College of Engineering with a CGPA of 8.02. He completed his HSC from Ponnu Matriculation Hr.Sec School with 84.6% and has gained practical experience through MERN stack and Flutter development internships.";
     } else if (lowerMessage.includes('contact') || lowerMessage.includes('email') || lowerMessage.includes('phone') || lowerMessage.includes('reach')) {

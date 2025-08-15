@@ -35,9 +35,10 @@ export default function SkillsSection() {
       icon: Code,
       color: "blue",
       skills: [
-        { name: "Java", percentage: 90 },
+
+        { name: "C/C++", percentage: 95 },
+        { name: "Java", percentage: 80},
         { name: "Python", percentage: 85 },
-        { name: "C/C++", percentage: 80 },
       ],
     },
     {
@@ -45,8 +46,9 @@ export default function SkillsSection() {
       icon: Layers,
       color: "purple",
       skills: [
+
+        { name: "Flutter", percentage: 95 },
         { name: "React.js", percentage: 88 },
-        { name: "Flutter", percentage: 85 },
         { name: "Node.js", percentage: 82 },
       ],
     },
@@ -139,7 +141,7 @@ export default function SkillsSection() {
                           e.currentTarget.classList.add('animate-wobble');
                           setTimeout(() => {
                             e.currentTarget.classList.remove('animate-wobble');
-                          }, 1000);
+                          }, 10000);
                         }}
                       >
                         {tool}

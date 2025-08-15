@@ -16,20 +16,21 @@ export const portfolioData = {
       description: "A transparency-focused system to control corruption through real-time tracking and reporting of governance activities.",
       date: "April 2025",
       color: "bg-purple-600",
-      technologies: ["Django", "Python", "API Integration"],
+      technologies: [ "MERN", "API Integration"],
       image: "https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
       imageAlt: "Modern tech interface design representing CIVICFIX governance platform",
     },
     {
       id: "reliv",
       title: "RELIV",
-      description: "Flutter-based disaster management app with network-less communication using Beacon technology for rescue coordination.",
+      description: "Flutter-based disaster management app for rescue coordination of volunteers and the goods management.",
       date: "March 2024",
       color: "bg-green-600",
-      technologies: ["Flutter", "Dart", "Beacon Tech"],
+      technologies: ["Flutter", "Dart", "Firebase"],
       image: "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
       imageAlt: "Emergency response and disaster management technology interface",
     },
+
   ],
   
   projectDetails: {

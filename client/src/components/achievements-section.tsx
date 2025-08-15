@@ -32,10 +32,10 @@ export default function AchievementsSection() {
     {
       id: 1,
       title: "LeetCode Excellence",
-      description: "Solved 140+ problems with a rating of 1559, demonstrating strong problem-solving skills in data structures and algorithms.",
+      description: "Solved 160+ problems with a rating of 1559, demonstrating strong problem-solving skills in data structures and algorithms.",
       icon: Code,
       color: "blue",
-      badges: ["140+ Problems", "1559 Rating"],
+      badges: ["160+ Problems", "1559 Rating"],
     },
     {
       id: 2,
