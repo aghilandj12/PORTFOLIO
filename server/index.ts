@@ -54,12 +54,10 @@ app.use((req, res, next) => {
     serveStatic(app);
   }
 
-  // Always serve on PORT env var or 5000 if not specified
-  const port = parseInt(process.env.PORT || '5000', 10);
-  server.listen({
-    port,
-    host: "localhost", // Changed from "0.0.0.0" to fix ENOTSUP on macOS
-  }, () => {
-    log(`serving on http://localhost:${port}`);
-  });
+  // ✅ Use 0.0.0.0 so Render/Railway can bind the port
+  const port = parseInt(process.env.PORT || "5000", 10);
+  server.listen(
+    { port, host: "0.0.0.0" },
+    () => log(`🚀 Server running on http://0.0.0.0:${port}`)
+  );
 })();
